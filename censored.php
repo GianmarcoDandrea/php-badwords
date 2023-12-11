@@ -28,7 +28,10 @@ $censored_paragraph_length = strlen($censored_paragraph);
             </p>
 
         </section>
-    <br><br>
+
+        <br>
+        <br>
+        
         <section>
             <p> 
                 Il paragrafo con le parole censurate è: <br>

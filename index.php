@@ -8,6 +8,7 @@
 <body>
 
     <form action="censored.php" method="GET">
+
         <label for="paragraph">Il Tuo Paragrafo</label>
         <input type="text" id="paragraph" name="paragraph">
 
@@ -15,6 +16,7 @@
         <input type="text" id="censored_word" name="censored_word">
 
         <button type="submit">Invia</button>
+        
     </form>
 
 </body>
