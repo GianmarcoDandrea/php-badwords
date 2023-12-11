@@ -11,7 +11,7 @@
         <label for="paragraph">Il Tuo Paragrafo</label>
         <input type="text" id="paragraph" name="paragraph">
 
-        <label for="censored-word">La parola da censurare</label>
+        <label for="censored_word">La parola da censurare</label>
         <input type="text" id="censored_word" name="censored_word">
 
         <button type="submit">Invia</button>

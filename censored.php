@@ -3,8 +3,7 @@ $paragraph = $_GET["paragraph"];
 $censored_word = $_GET["censored_word"];
 
 $paragraph_length = strlen($paragraph);
-
-$censored_paragraph = str_replace("$censored_word", "***", $paragraph);
+$censored_paragraph = str_replace(trim($censored_word), "***", $paragraph);
 $censored_paragraph_length = strlen($censored_paragraph);
 ?>
 
@@ -29,7 +28,7 @@ $censored_paragraph_length = strlen($censored_paragraph);
             </p>
 
         </section>
-
+    <br><br>
         <section>
             <p> 
                 Il paragrafo con le parole censurate è: <br>
