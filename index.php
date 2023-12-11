@@ -8,7 +8,7 @@
   <body>
     <form action="censored.php" method="GET">
       <label for="paragraph">Il Tuo Paragrafo</label>
-      <input type="text" id="paragraph" name="paragraph" />
+      <textarea id="paragraph" name="paragraph" row="20" cols="50"></textarea>
 
       <label for="censored_word">La parola da censurare</label>
       <input type="text" id="censored_word" name="censored_word" />
