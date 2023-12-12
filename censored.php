@@ -13,17 +13,22 @@ $censored_paragraph_length = strlen($censored_paragraph);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style/style_censored.css">
   </head>
 
   <body>
     <section>
       <p>
-        Il paragrafo da te inseririto è <br />
+        <h2>
+          Il paragrafo da te inseririto è 
+        </h2>
         <?php echo $paragraph ?>
       </p>
 
       <p>
-        La lunghezza del paragrafo è:
+        <h2>
+          La lunghezza del paragrafo è:
+        </h2>
         <?php echo $paragraph_length; ?>
       </p>
     </section>
@@ -33,12 +38,16 @@ $censored_paragraph_length = strlen($censored_paragraph);
 
     <section>
       <p>
-        Il paragrafo con le parole censurate è: <br />
+        <h2>
+          Il paragrafo con le parole censurate è: 
+        </h2>
         <?php echo $censored_paragraph ?>
       </p>
 
       <p>
-        La lunghezza del paragrafo censurato è:
+        <h2>
+          La lunghezza del paragrafo censurato è:
+        </h2>
         <?php echo $censored_paragraph_length; ?>
       </p>
     </section>
